@@ -724,6 +724,6 @@ main{
   display: block;
 }
 
-.handmade-container, .film-container, .portrait-2018-02 .container,.portrait-2018-03 .container, .portrait-2015-02 .container,.hat-02 .container,.container-2016,#projects .container, #landscape .container{
+.handmade-container, .film-container, .portrait-2018-02 .container,.portrait-2018-03 .container, .portrait-2015-02 .container,.hat-02 .container,.container-2016,#projects .container, #landscape .container,.container-2017{
   column-count: 2;
 }
