@@ -174,12 +174,12 @@ li a:hover,.tab-wrap a:hover{
   border-right: solid 1px #fff;
 }
 
-#landscape .pcHeader nav ul li:nth-child(4){
+#landscape .pcHeader nav ul li:nth-child(4),#single-landscape .pcHeader nav ul li:nth-child(4){
   border-left: solid 1px #fff;
   border-right: solid 1px #fff;
 }
 
-#projects .pcHeader nav ul li:nth-child(5){
+#projects .pcHeader nav ul li:nth-child(5), #single-projects .pcHeader nav ul li:nth-child(5){
   border-left: solid 1px #fff;
   border-right: solid 1px #fff;
 }
@@ -407,7 +407,7 @@ main{
 }
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 740px){
   body{
     background-color: #fff;
   }
@@ -632,7 +632,7 @@ main{
     opacity: .8;
   }
 
-  #single-clothing .container{
+  #single-clothing .container, #single-projects .container{
     column-count: 1;
   }
 
