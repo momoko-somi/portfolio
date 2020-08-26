@@ -736,7 +736,7 @@ main{
   }
 }
 /*サムネイルの画像が増えたら消す*/
-#film .link-image:first-child, #projects .link-image:first-child{
+#film .link-image:first-child, .link-image-wedding01{
   display: block;
 }
 
