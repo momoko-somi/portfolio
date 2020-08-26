@@ -381,6 +381,14 @@ main{
   padding: 40px 20px;
 }
 
+.about-top-text .instagram a{
+  color: #111;
+}
+
+.instagram a{
+  border-bottom: #333 solid 1px;
+}
+
 .contact-wrap{
   background-color: rgb(252, 246, 246);
   padding: 50px 0;
@@ -390,9 +398,14 @@ main{
 
 .contact-wrap a{
   color: #111;
-  border-bottom: #333 solid 1px;
   display: inline-block;
   padding: 0 5px;
+  border: unset;
+  border-bottom: #333 solid 1px;
+}
+
+.contact-wrap a:hover, #about a:hover{
+  border: none;
 }
 
 .contact-wrap .eng-sub{
