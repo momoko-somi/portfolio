@@ -378,15 +378,21 @@ main{
 }
 
 .about-top-text{
-  padding: 40px 20px;
+  padding: 25px 20px;
 }
 
 .about-top-text .instagram a{
   color: #111;
+  line-height: 20px;
+}
+
+.about-top-text p{
+  margin: 0;
 }
 
 .instagram a{
   border-bottom: #333 solid 1px;
+  width: unset;
 }
 
 .contact-wrap{
@@ -667,7 +673,7 @@ main{
   } 
 
   .about-top-text{
-    padding:20px;
+    padding:10px;
   }
 
   .about-wrap{
@@ -705,7 +711,7 @@ main{
   }
 
   .about-top{
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
 
   .about-wrap img{
