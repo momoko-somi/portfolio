@@ -51,10 +51,10 @@ h1,h2,h3,h4{
 }
 /* 表示位置対策 */
 
-.pcImage .main_img:nth-of-type(1){
+/* .pcImage .main_img:nth-of-type(1){
   background-position: unset;
   background-position: 0 25%;
-} 
+}  */
 
 .pcImage .main_img:nth-of-type(3){
 background-position: unset;
@@ -215,7 +215,7 @@ main{
 /* 全画面 */
 .container {
   margin: 0 auto;
-  padding:5px 5px;
+  padding:5px 60px;
   column-count: 3;
   column-gap: 0;
 
@@ -347,32 +347,26 @@ main{
   margin: 20px 60px 0 60px; 
 }
 
+#about .tab-content{
+  margin: 20px 20px 0 20px; 
+}
+
 .about-wrap{
- max-width: 100%;
-  display: flex;
-  text-align: center;
-  padding-bottom: 10px;
+  padding: 20px 20px 30px 20px;
 }
-
-.about-text{
-  padding: 20px 15px;
-  text-align: left;
-}
-
 
 .about-wrap img{
-  padding: 10px;
+  width: 30%;
+  height: 30%;
 }
 
-.about-wrap a,.contact-wrap a{
-  color: #111;
-  display: inline-block;
-  width: unset;
-  border-bottom: solid 1px rgb(95, 93, 93);
+.about-top{
+  display: flex;
+  margin: 20px 20px 0 20px ;
+  justify-content: center;
 }
-
-#about .tab-content .formobile{
-  display: none;
+.about-top-text .eng-sub{
+  padding: 15px 0;
 }
 
 .about-text th,td{
@@ -383,12 +377,22 @@ main{
   letter-spacing: 0px;
 }
 
+.about-top-text{
+  padding: 40px 20px;
+}
 
 .contact-wrap{
   background-color: rgb(252, 246, 246);
   padding: 50px 0;
   text-align: center;
   margin: 150px 50px;
+}
+
+.contact-wrap a{
+  color: #111;
+  border-bottom: #333 solid 1px;
+  display: inline-block;
+  padding: 0 5px;
 }
 
 .contact-wrap .eng-sub{
@@ -643,32 +647,19 @@ main{
   #about .tab-content{
     background-color: unset;
     box-shadow: 2px 2px 3px 2px  rgb(121, 119, 119);
-    margin: 20px 20px 0 20px; 
+  }
+
+  .about-wrap img{
+    padding: 10px 15px;
+  } 
+
+  .about-top-text{
+    padding:20px;
   }
 
   .about-wrap{
     padding: 20px;
   }
-
-  #about .tab-content .formobile{
-    display: block;
-  }
-  
-  .about-wrap img{
-    width: 30%;
-    height: 30%;
-  }
-
-  .about-top{
-    display: flex;
-    margin: 20px 20px 0 20px ;
-    justify-content: center;
-  }
-  .about-top-text .eng-sub{
-    padding: 15px 0;
-  }
-
-  
 
   footer{
     color: #111;
@@ -693,7 +684,7 @@ main{
   }
 
   .about-wrap{
-    padding: 20px 0 0;
+    padding: 20px 10px;
   }
 
   .about-wrap h2{
@@ -706,7 +697,12 @@ main{
 
   .about-wrap img{
     border-radius: 50%;
+    padding: 10px 15px;
   } 
+
+  .about-top-text{
+    padding: 0;
+  }
 
   .contact-wrap{
     box-shadow: 2px 2px 3px 2px  rgb(121, 119, 119);
@@ -720,7 +716,7 @@ main{
   }
 }
 /*サムネイルの画像が増えたら消す*/
-#film .link-image:first-child{
+#film .link-image:first-child,#projects .link-image:first-child{
   display: block;
 }
 
