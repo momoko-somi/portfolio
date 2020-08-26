@@ -56,10 +56,10 @@ h1,h2,h3,h4{
   background-position: 0 25%;
 }  */
 
-.pcImage .main_img:nth-of-type(3){
+/* .pcImage .main_img:nth-of-type(3){
 background-position: unset;
 background-position: 0 100%;
-}
+} */
 
 .main_img:nth-of-type(2) {
   -webkit-animation-delay: 6s;
